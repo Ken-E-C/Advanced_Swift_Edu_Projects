@@ -7,70 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88C4B27427B95170002C06ED /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88C4B27327B95170002C06ED /* Pacifico-Regular.ttf */; };
-		88C4B27727B95FDC002C06ED /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C4B27627B95FDC002C06ED /* InfoView.swift */; };
-		88F057EF27B94C2600FB0ABB /* KennyCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F057EE27B94C2600FB0ABB /* KennyCardApp.swift */; };
-		88F057F127B94C2600FB0ABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F057F027B94C2600FB0ABB /* ContentView.swift */; };
-		88F057F327B94C2700FB0ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F057F227B94C2700FB0ABB /* Assets.xcassets */; };
-		88F057F627B94C2700FB0ABB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F057F527B94C2700FB0ABB /* Preview Assets.xcassets */; };
-		88F057F827B94C2700FB0ABB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F057F727B94C2700FB0ABB /* Persistence.swift */; };
-		88F057FB27B94C2700FB0ABB /* KennyCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88F057F927B94C2700FB0ABB /* KennyCard.xcdatamodeld */; };
-		88F0580527B94C2700FB0ABB /* KennyCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F0580427B94C2700FB0ABB /* KennyCardTests.swift */; };
-		88F0580F27B94C2700FB0ABB /* KennyCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F0580E27B94C2700FB0ABB /* KennyCardUITests.swift */; };
-		88F0581127B94C2700FB0ABB /* KennyCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F0581027B94C2700FB0ABB /* KennyCardUITestsLaunchTests.swift */; };
+		88C4B28527B96FD9002C06ED /* DiceeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C4B28427B96FD9002C06ED /* DiceeApp.swift */; };
+		88C4B28727B96FD9002C06ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C4B28627B96FD9002C06ED /* ContentView.swift */; };
+		88C4B28927B96FDA002C06ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C4B28827B96FDA002C06ED /* Assets.xcassets */; };
+		88C4B28C27B96FDA002C06ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C4B28B27B96FDA002C06ED /* Preview Assets.xcassets */; };
+		88C4B28E27B96FDA002C06ED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C4B28D27B96FDA002C06ED /* Persistence.swift */; };
+		88C4B29127B96FDA002C06ED /* Dicee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88C4B28F27B96FDA002C06ED /* Dicee.xcdatamodeld */; };
+		88C4B29B27B96FDA002C06ED /* DiceeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C4B29A27B96FDA002C06ED /* DiceeTests.swift */; };
+		88C4B2A527B96FDA002C06ED /* DiceeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C4B2A427B96FDA002C06ED /* DiceeUITests.swift */; };
+		88C4B2A727B96FDA002C06ED /* DiceeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C4B2A627B96FDA002C06ED /* DiceeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		88F0580127B94C2700FB0ABB /* PBXContainerItemProxy */ = {
+		88C4B29727B96FDA002C06ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 88F057E327B94C2600FB0ABB /* Project object */;
+			containerPortal = 88C4B27927B96FD9002C06ED /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 88F057EA27B94C2600FB0ABB;
-			remoteInfo = KennyCard;
+			remoteGlobalIDString = 88C4B28027B96FD9002C06ED;
+			remoteInfo = Dicee;
 		};
-		88F0580B27B94C2700FB0ABB /* PBXContainerItemProxy */ = {
+		88C4B2A127B96FDA002C06ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 88F057E327B94C2600FB0ABB /* Project object */;
+			containerPortal = 88C4B27927B96FD9002C06ED /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 88F057EA27B94C2600FB0ABB;
-			remoteInfo = KennyCard;
+			remoteGlobalIDString = 88C4B28027B96FD9002C06ED;
+			remoteInfo = Dicee;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		88C4B27327B95170002C06ED /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
-		88C4B27527B9529A002C06ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		88C4B27627B95FDC002C06ED /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
-		88F057EB27B94C2600FB0ABB /* KennyCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KennyCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		88F057EE27B94C2600FB0ABB /* KennyCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KennyCardApp.swift; sourceTree = "<group>"; };
-		88F057F027B94C2600FB0ABB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		88F057F227B94C2700FB0ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		88F057F527B94C2700FB0ABB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		88F057F727B94C2700FB0ABB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		88F057FA27B94C2700FB0ABB /* KennyCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KennyCard.xcdatamodel; sourceTree = "<group>"; };
-		88F0580027B94C2700FB0ABB /* KennyCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KennyCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		88F0580427B94C2700FB0ABB /* KennyCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KennyCardTests.swift; sourceTree = "<group>"; };
-		88F0580A27B94C2700FB0ABB /* KennyCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KennyCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		88F0580E27B94C2700FB0ABB /* KennyCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KennyCardUITests.swift; sourceTree = "<group>"; };
-		88F0581027B94C2700FB0ABB /* KennyCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KennyCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88C4B28127B96FD9002C06ED /* Dicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C4B28427B96FD9002C06ED /* DiceeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeApp.swift; sourceTree = "<group>"; };
+		88C4B28627B96FD9002C06ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		88C4B28827B96FDA002C06ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88C4B28B27B96FDA002C06ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88C4B28D27B96FDA002C06ED /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		88C4B29027B96FDA002C06ED /* Dicee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dicee.xcdatamodel; sourceTree = "<group>"; };
+		88C4B29627B96FDA002C06ED /* DiceeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C4B29A27B96FDA002C06ED /* DiceeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeTests.swift; sourceTree = "<group>"; };
+		88C4B2A027B96FDA002C06ED /* DiceeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C4B2A427B96FDA002C06ED /* DiceeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeUITests.swift; sourceTree = "<group>"; };
+		88C4B2A627B96FDA002C06ED /* DiceeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		88F057E827B94C2600FB0ABB /* Frameworks */ = {
+		88C4B27E27B96FD9002C06ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88F057FD27B94C2700FB0ABB /* Frameworks */ = {
+		88C4B29327B96FDA002C06ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88F0580727B94C2700FB0ABB /* Frameworks */ = {
+		88C4B29D27B96FDA002C06ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,155 +75,144 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		88C4B27227B9514E002C06ED /* Fonts */ = {
+		88C4B27827B96FD9002C06ED = {
 			isa = PBXGroup;
 			children = (
-				88C4B27327B95170002C06ED /* Pacifico-Regular.ttf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		88F057E227B94C2600FB0ABB = {
-			isa = PBXGroup;
-			children = (
-				88F057ED27B94C2600FB0ABB /* KennyCard */,
-				88F0580327B94C2700FB0ABB /* KennyCardTests */,
-				88F0580D27B94C2700FB0ABB /* KennyCardUITests */,
-				88F057EC27B94C2600FB0ABB /* Products */,
+				88C4B28327B96FD9002C06ED /* Dicee */,
+				88C4B29927B96FDA002C06ED /* DiceeTests */,
+				88C4B2A327B96FDA002C06ED /* DiceeUITests */,
+				88C4B28227B96FD9002C06ED /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		88F057EC27B94C2600FB0ABB /* Products */ = {
+		88C4B28227B96FD9002C06ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88F057EB27B94C2600FB0ABB /* KennyCard.app */,
-				88F0580027B94C2700FB0ABB /* KennyCardTests.xctest */,
-				88F0580A27B94C2700FB0ABB /* KennyCardUITests.xctest */,
+				88C4B28127B96FD9002C06ED /* Dicee.app */,
+				88C4B29627B96FDA002C06ED /* DiceeTests.xctest */,
+				88C4B2A027B96FDA002C06ED /* DiceeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		88F057ED27B94C2600FB0ABB /* KennyCard */ = {
+		88C4B28327B96FD9002C06ED /* Dicee */ = {
 			isa = PBXGroup;
 			children = (
-				88C4B27527B9529A002C06ED /* Info.plist */,
-				88C4B27227B9514E002C06ED /* Fonts */,
-				88F057EE27B94C2600FB0ABB /* KennyCardApp.swift */,
-				88F057F027B94C2600FB0ABB /* ContentView.swift */,
-				88C4B27627B95FDC002C06ED /* InfoView.swift */,
-				88F057F227B94C2700FB0ABB /* Assets.xcassets */,
-				88F057F727B94C2700FB0ABB /* Persistence.swift */,
-				88F057F927B94C2700FB0ABB /* KennyCard.xcdatamodeld */,
-				88F057F427B94C2700FB0ABB /* Preview Content */,
+				88C4B28427B96FD9002C06ED /* DiceeApp.swift */,
+				88C4B28627B96FD9002C06ED /* ContentView.swift */,
+				88C4B28827B96FDA002C06ED /* Assets.xcassets */,
+				88C4B28D27B96FDA002C06ED /* Persistence.swift */,
+				88C4B28F27B96FDA002C06ED /* Dicee.xcdatamodeld */,
+				88C4B28A27B96FDA002C06ED /* Preview Content */,
 			);
-			path = KennyCard;
+			path = Dicee;
 			sourceTree = "<group>";
 		};
-		88F057F427B94C2700FB0ABB /* Preview Content */ = {
+		88C4B28A27B96FDA002C06ED /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				88F057F527B94C2700FB0ABB /* Preview Assets.xcassets */,
+				88C4B28B27B96FDA002C06ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		88F0580327B94C2700FB0ABB /* KennyCardTests */ = {
+		88C4B29927B96FDA002C06ED /* DiceeTests */ = {
 			isa = PBXGroup;
 			children = (
-				88F0580427B94C2700FB0ABB /* KennyCardTests.swift */,
+				88C4B29A27B96FDA002C06ED /* DiceeTests.swift */,
 			);
-			path = KennyCardTests;
+			path = DiceeTests;
 			sourceTree = "<group>";
 		};
-		88F0580D27B94C2700FB0ABB /* KennyCardUITests */ = {
+		88C4B2A327B96FDA002C06ED /* DiceeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				88F0580E27B94C2700FB0ABB /* KennyCardUITests.swift */,
-				88F0581027B94C2700FB0ABB /* KennyCardUITestsLaunchTests.swift */,
+				88C4B2A427B96FDA002C06ED /* DiceeUITests.swift */,
+				88C4B2A627B96FDA002C06ED /* DiceeUITestsLaunchTests.swift */,
 			);
-			path = KennyCardUITests;
+			path = DiceeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		88F057EA27B94C2600FB0ABB /* KennyCard */ = {
+		88C4B28027B96FD9002C06ED /* Dicee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88F0581427B94C2700FB0ABB /* Build configuration list for PBXNativeTarget "KennyCard" */;
+			buildConfigurationList = 88C4B2AA27B96FDA002C06ED /* Build configuration list for PBXNativeTarget "Dicee" */;
 			buildPhases = (
-				88F057E727B94C2600FB0ABB /* Sources */,
-				88F057E827B94C2600FB0ABB /* Frameworks */,
-				88F057E927B94C2600FB0ABB /* Resources */,
+				88C4B27D27B96FD9002C06ED /* Sources */,
+				88C4B27E27B96FD9002C06ED /* Frameworks */,
+				88C4B27F27B96FD9002C06ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KennyCard;
-			productName = KennyCard;
-			productReference = 88F057EB27B94C2600FB0ABB /* KennyCard.app */;
+			name = Dicee;
+			productName = Dicee;
+			productReference = 88C4B28127B96FD9002C06ED /* Dicee.app */;
 			productType = "com.apple.product-type.application";
 		};
-		88F057FF27B94C2700FB0ABB /* KennyCardTests */ = {
+		88C4B29527B96FDA002C06ED /* DiceeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88F0581727B94C2700FB0ABB /* Build configuration list for PBXNativeTarget "KennyCardTests" */;
+			buildConfigurationList = 88C4B2AD27B96FDA002C06ED /* Build configuration list for PBXNativeTarget "DiceeTests" */;
 			buildPhases = (
-				88F057FC27B94C2700FB0ABB /* Sources */,
-				88F057FD27B94C2700FB0ABB /* Frameworks */,
-				88F057FE27B94C2700FB0ABB /* Resources */,
+				88C4B29227B96FDA002C06ED /* Sources */,
+				88C4B29327B96FDA002C06ED /* Frameworks */,
+				88C4B29427B96FDA002C06ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				88F0580227B94C2700FB0ABB /* PBXTargetDependency */,
+				88C4B29827B96FDA002C06ED /* PBXTargetDependency */,
 			);
-			name = KennyCardTests;
-			productName = KennyCardTests;
-			productReference = 88F0580027B94C2700FB0ABB /* KennyCardTests.xctest */;
+			name = DiceeTests;
+			productName = DiceeTests;
+			productReference = 88C4B29627B96FDA002C06ED /* DiceeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		88F0580927B94C2700FB0ABB /* KennyCardUITests */ = {
+		88C4B29F27B96FDA002C06ED /* DiceeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88F0581A27B94C2700FB0ABB /* Build configuration list for PBXNativeTarget "KennyCardUITests" */;
+			buildConfigurationList = 88C4B2B027B96FDA002C06ED /* Build configuration list for PBXNativeTarget "DiceeUITests" */;
 			buildPhases = (
-				88F0580627B94C2700FB0ABB /* Sources */,
-				88F0580727B94C2700FB0ABB /* Frameworks */,
-				88F0580827B94C2700FB0ABB /* Resources */,
+				88C4B29C27B96FDA002C06ED /* Sources */,
+				88C4B29D27B96FDA002C06ED /* Frameworks */,
+				88C4B29E27B96FDA002C06ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				88F0580C27B94C2700FB0ABB /* PBXTargetDependency */,
+				88C4B2A227B96FDA002C06ED /* PBXTargetDependency */,
 			);
-			name = KennyCardUITests;
-			productName = KennyCardUITests;
-			productReference = 88F0580A27B94C2700FB0ABB /* KennyCardUITests.xctest */;
+			name = DiceeUITests;
+			productName = DiceeUITests;
+			productReference = 88C4B2A027B96FDA002C06ED /* DiceeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		88F057E327B94C2600FB0ABB /* Project object */ = {
+		88C4B27927B96FD9002C06ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					88F057EA27B94C2600FB0ABB = {
+					88C4B28027B96FD9002C06ED = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					88F057FF27B94C2700FB0ABB = {
+					88C4B29527B96FDA002C06ED = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 88F057EA27B94C2600FB0ABB;
+						TestTargetID = 88C4B28027B96FD9002C06ED;
 					};
-					88F0580927B94C2700FB0ABB = {
+					88C4B29F27B96FDA002C06ED = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 88F057EA27B94C2600FB0ABB;
+						TestTargetID = 88C4B28027B96FD9002C06ED;
 					};
 				};
 			};
-			buildConfigurationList = 88F057E627B94C2600FB0ABB /* Build configuration list for PBXProject "KennyCard" */;
+			buildConfigurationList = 88C4B27C27B96FD9002C06ED /* Build configuration list for PBXProject "Dicee" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -236,37 +220,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 88F057E227B94C2600FB0ABB;
-			productRefGroup = 88F057EC27B94C2600FB0ABB /* Products */;
+			mainGroup = 88C4B27827B96FD9002C06ED;
+			productRefGroup = 88C4B28227B96FD9002C06ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88F057EA27B94C2600FB0ABB /* KennyCard */,
-				88F057FF27B94C2700FB0ABB /* KennyCardTests */,
-				88F0580927B94C2700FB0ABB /* KennyCardUITests */,
+				88C4B28027B96FD9002C06ED /* Dicee */,
+				88C4B29527B96FDA002C06ED /* DiceeTests */,
+				88C4B29F27B96FDA002C06ED /* DiceeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		88F057E927B94C2600FB0ABB /* Resources */ = {
+		88C4B27F27B96FD9002C06ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C4B27427B95170002C06ED /* Pacifico-Regular.ttf in Resources */,
-				88F057F627B94C2700FB0ABB /* Preview Assets.xcassets in Resources */,
-				88F057F327B94C2700FB0ABB /* Assets.xcassets in Resources */,
+				88C4B28C27B96FDA002C06ED /* Preview Assets.xcassets in Resources */,
+				88C4B28927B96FDA002C06ED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88F057FE27B94C2700FB0ABB /* Resources */ = {
+		88C4B29427B96FDA002C06ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88F0580827B94C2700FB0ABB /* Resources */ = {
+		88C4B29E27B96FDA002C06ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,52 +259,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		88F057E727B94C2600FB0ABB /* Sources */ = {
+		88C4B27D27B96FD9002C06ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88F057F827B94C2700FB0ABB /* Persistence.swift in Sources */,
-				88F057FB27B94C2700FB0ABB /* KennyCard.xcdatamodeld in Sources */,
-				88F057F127B94C2600FB0ABB /* ContentView.swift in Sources */,
-				88C4B27727B95FDC002C06ED /* InfoView.swift in Sources */,
-				88F057EF27B94C2600FB0ABB /* KennyCardApp.swift in Sources */,
+				88C4B29127B96FDA002C06ED /* Dicee.xcdatamodeld in Sources */,
+				88C4B28E27B96FDA002C06ED /* Persistence.swift in Sources */,
+				88C4B28727B96FD9002C06ED /* ContentView.swift in Sources */,
+				88C4B28527B96FD9002C06ED /* DiceeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88F057FC27B94C2700FB0ABB /* Sources */ = {
+		88C4B29227B96FDA002C06ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88F0580527B94C2700FB0ABB /* KennyCardTests.swift in Sources */,
+				88C4B29B27B96FDA002C06ED /* DiceeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88F0580627B94C2700FB0ABB /* Sources */ = {
+		88C4B29C27B96FDA002C06ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88F0581127B94C2700FB0ABB /* KennyCardUITestsLaunchTests.swift in Sources */,
-				88F0580F27B94C2700FB0ABB /* KennyCardUITests.swift in Sources */,
+				88C4B2A527B96FDA002C06ED /* DiceeUITests.swift in Sources */,
+				88C4B2A727B96FDA002C06ED /* DiceeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		88F0580227B94C2700FB0ABB /* PBXTargetDependency */ = {
+		88C4B29827B96FDA002C06ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 88F057EA27B94C2600FB0ABB /* KennyCard */;
-			targetProxy = 88F0580127B94C2700FB0ABB /* PBXContainerItemProxy */;
+			target = 88C4B28027B96FD9002C06ED /* Dicee */;
+			targetProxy = 88C4B29727B96FDA002C06ED /* PBXContainerItemProxy */;
 		};
-		88F0580C27B94C2700FB0ABB /* PBXTargetDependency */ = {
+		88C4B2A227B96FDA002C06ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 88F057EA27B94C2600FB0ABB /* KennyCard */;
-			targetProxy = 88F0580B27B94C2700FB0ABB /* PBXContainerItemProxy */;
+			target = 88C4B28027B96FD9002C06ED /* Dicee */;
+			targetProxy = 88C4B2A127B96FDA002C06ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		88F0581227B94C2700FB0ABB /* Debug */ = {
+		88C4B2A827B96FDA002C06ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -382,7 +364,7 @@
 			};
 			name = Debug;
 		};
-		88F0581327B94C2700FB0ABB /* Release */ = {
+		88C4B2A927B96FDA002C06ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -437,18 +419,17 @@
 			};
 			name = Release;
 		};
-		88F0581527B94C2700FB0ABB /* Debug */ = {
+		88C4B2AB27B96FDA002C06ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"KennyCard/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Dicee/Preview Content\"";
 				DEVELOPMENT_TEAM = 63F4D7KM8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KennyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.KennyCard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.Dicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -467,18 +448,17 @@
 			};
 			name = Debug;
 		};
-		88F0581627B94C2700FB0ABB /* Release */ = {
+		88C4B2AC27B96FDA002C06ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"KennyCard/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Dicee/Preview Content\"";
 				DEVELOPMENT_TEAM = 63F4D7KM8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KennyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -489,7 +469,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.KennyCard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.Dicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -497,7 +477,7 @@
 			};
 			name = Release;
 		};
-		88F0581827B94C2700FB0ABB /* Debug */ = {
+		88C4B2AE27B96FDA002C06ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -513,16 +493,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.KennyCardTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.DiceeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KennyCard.app/KennyCard";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dicee.app/Dicee";
 			};
 			name = Debug;
 		};
-		88F0581927B94C2700FB0ABB /* Release */ = {
+		88C4B2AF27B96FDA002C06ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -538,16 +518,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.KennyCardTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.DiceeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KennyCard.app/KennyCard";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dicee.app/Dicee";
 			};
 			name = Release;
 		};
-		88F0581B27B94C2700FB0ABB /* Debug */ = {
+		88C4B2B127B96FDA002C06ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -561,16 +541,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.KennyCardUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.DiceeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KennyCard;
+				TEST_TARGET_NAME = Dicee;
 			};
 			name = Debug;
 		};
-		88F0581C27B94C2700FB0ABB /* Release */ = {
+		88C4B2B227B96FDA002C06ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -584,50 +564,50 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.KennyCardUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.DiceeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KennyCard;
+				TEST_TARGET_NAME = Dicee;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88F057E627B94C2600FB0ABB /* Build configuration list for PBXProject "KennyCard" */ = {
+		88C4B27C27B96FD9002C06ED /* Build configuration list for PBXProject "Dicee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88F0581227B94C2700FB0ABB /* Debug */,
-				88F0581327B94C2700FB0ABB /* Release */,
+				88C4B2A827B96FDA002C06ED /* Debug */,
+				88C4B2A927B96FDA002C06ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88F0581427B94C2700FB0ABB /* Build configuration list for PBXNativeTarget "KennyCard" */ = {
+		88C4B2AA27B96FDA002C06ED /* Build configuration list for PBXNativeTarget "Dicee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88F0581527B94C2700FB0ABB /* Debug */,
-				88F0581627B94C2700FB0ABB /* Release */,
+				88C4B2AB27B96FDA002C06ED /* Debug */,
+				88C4B2AC27B96FDA002C06ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88F0581727B94C2700FB0ABB /* Build configuration list for PBXNativeTarget "KennyCardTests" */ = {
+		88C4B2AD27B96FDA002C06ED /* Build configuration list for PBXNativeTarget "DiceeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88F0581827B94C2700FB0ABB /* Debug */,
-				88F0581927B94C2700FB0ABB /* Release */,
+				88C4B2AE27B96FDA002C06ED /* Debug */,
+				88C4B2AF27B96FDA002C06ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88F0581A27B94C2700FB0ABB /* Build configuration list for PBXNativeTarget "KennyCardUITests" */ = {
+		88C4B2B027B96FDA002C06ED /* Build configuration list for PBXNativeTarget "DiceeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88F0581B27B94C2700FB0ABB /* Debug */,
-				88F0581C27B94C2700FB0ABB /* Release */,
+				88C4B2B127B96FDA002C06ED /* Debug */,
+				88C4B2B227B96FDA002C06ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -635,17 +615,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		88F057F927B94C2700FB0ABB /* KennyCard.xcdatamodeld */ = {
+		88C4B28F27B96FDA002C06ED /* Dicee.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				88F057FA27B94C2700FB0ABB /* KennyCard.xcdatamodel */,
+				88C4B29027B96FDA002C06ED /* Dicee.xcdatamodel */,
 			);
-			currentVersion = 88F057FA27B94C2700FB0ABB /* KennyCard.xcdatamodel */;
-			path = KennyCard.xcdatamodeld;
+			currentVersion = 88C4B29027B96FDA002C06ED /* Dicee.xcdatamodel */;
+			path = Dicee.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 88F057E327B94C2600FB0ABB /* Project object */;
+	rootObject = 88C4B27927B96FD9002C06ED /* Project object */;
 }
